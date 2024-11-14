@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header {
+    min-height: 100vh;
+    background: url(images/headerbg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.nav {
+    background-color: black;
+    padding: 20px 0px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.main-nav {
+    float: right;
+}
+
+.main-nav ul {
+    margin-top: 10px;
+}
+
+.main-nav ul li {
+    display: inline;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: 100;
+    letter-spacing: 1px;
+    transition: all 1s;
+}
+
+
+.main-nav ul li a:hover {
+    color: yellowgreen;
+}
+
+.hero {
+    width: 80%;
+    margin: 100px auto 0 auto;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-family: Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+hr {
+    width: 50%;
+    border: solid 1px #61c2f7;
+    margin: 20px auto;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 25px 25%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: solid 1px #61c2f7;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.design {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #eee;
+}
+
+.design h2 {
+    font-size: 36px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.design p {
+    font-size: 18px;
+    margin-top: 30px;
+    color: #828282;
+    text-align: justify;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons {
+    padding: 50px 0px;
+}
+
+.row {
+    width: 90%;
+    margin: auto;
+}
+
+.icon {
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.icon i {
+    background-color: #61c2f7;
+    padding: 22px;
+    color: white;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.icon h3 {
+    font-family: Arial;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.icon p {
+    font-size: 18px;
+    color: #828282;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery {
+    padding: 50px 0px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+.info p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #828282;
+    margin-bottom: 25px;
+}
+
+
+.x-row {
+    width: 100%;
+}
+
+.x-row .item {
+    width: 31%;
+    margin: 1%;
+    float: left;
+    position: relative;
+}
+
+.x-row .item img {
+    width: 100%;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(28, 154, 238, .4);
+    text-align: center;
+    display: none;
+}
+
+.overlay i {
+    color: white;
+    font-size: 50px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.item:hover .overlay {
+    display: block;
+}
+
+
+
+
+.contact {
+    background-image: url(images/contactbg.png);
+    background-size: cover;
+    height: 600px;
+    padding: 50px 0;
+    position: relative;
+}
+
+.contact-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(45, 57, 80,.8);
+
+}
+
+
+.contact-info {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.contact-info h2 {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.contact-info p {
+    color: #828281;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+
+
+
+.contact-form {
+  width: 600px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.contact-form input[type=text],input[type=email], textarea {
+    width: 600px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: transparent;
+    display: block;
+}
+
+span {
+    background: transparent;
+    padding: 10px 30px;
+    color: white;
+    font-size: 16px;
+    margin-left: 40px;
+    color: white;
+    float: left;
+}
+
+input[type=checkbox]{
+    margin-right: 20px;
+}
+input[type=submit]{
+    background: transparent;
+    padding: 10px 30px;
+    color: white;
+    font-size: 16px;
+    border: solid 1px #61c2f7;
+}
+
+
+.footer{
+    padding: 25px;
+    background-color: #eee;
+    text-align: right;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 36px;
+    margin: 5px;
+    color: #61c2f7;
+}
